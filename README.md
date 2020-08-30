@@ -1,2 +1,4 @@
-# calculator-app-js
+# Calculator App
 Calculator App Using Vanilla JavaScript
+
+### 
