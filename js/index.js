@@ -148,11 +148,9 @@ createButtons();
 // Click Event
 input_element.addEventListener('click' , event =>{
     const target_btn = event.target;
-    console.log(target_btn.id);
 
     calculator_buttons.forEach( button => {
         if( button.name == target_btn.id ){
-            console.log(button.name);
             calculator(button);
         }
     });
